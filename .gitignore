@@ -1,7 +1,11 @@
 build/
+build*/
 
 *.exe
 *.o
 *.obj
 *.log
 *.tlog
+
+# Cmake
+*.swp
