@@ -14,4 +14,7 @@ cmake -DCMAKE_C_COMPILER:FILEPATH=/c/w64devkit/bin/gcc.exe \
       -S . \
       -B 'build' \
       -G "Unix Makefiles"
+
+# And then to build...
+cmake --build 'build' --config 'Release' --target install
 ```
